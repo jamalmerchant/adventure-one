@@ -1,0 +1,40 @@
+.blog-post {
+    max-width: 400px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.info strong {
+    font-weight: bold;
+}
