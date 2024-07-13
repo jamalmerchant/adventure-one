@@ -101,7 +101,7 @@ nav ul li a{
 }
 
 
-
+/*=====banner section====*/
 .banner{
     padding: 200px 0 150px;
     text-align: center;
@@ -139,15 +139,12 @@ nav ul li a{
     background-color: #d1181800;
     letter-spacing: 3px;
 }
-/* upcoming events*/
+/* upcoimg events */
 
 .event-main{
     text-align: center;
 }
-.event-main h2{
-    margin: 0;
-    font-size: 40px;
-}
+
 .event-main span{
     background-color: red;
     height: 5px;
@@ -228,7 +225,7 @@ nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
-/* yours & destination*/
+/* tours & destination*/
 .tours-main{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -303,9 +300,352 @@ footer{
   ::-webkit-scrollbar-thumb:hover {
     background: rgba(128, 128, 128, 0.212);
   } 
- /*=========scroll bar start===*/
+ /*=========scroll bar end ===*/
+
+  /* small phone, medium phone and large phone = 0 =>600px and down */
+  @media only screen and (max-width:600px){
+    .container{
+        width: 96%;
+    }
+    section{
+        padding: 40px 0;
+    }
+    
+    h1{
+        font-size: 30px;
+        
+    }
+    h2{
+        font-size: 25px;
+        
+    }
+    
+    h3{
+        font-size: 20px;
+        
+    }
+    
+     header{
+        
+    }
+    nav{
+        display: block;
+        
+    }    
+    nav h4{
+       font-size: 20px;
+       margin: 0;
+       text-align: center;
+       padding: 10px 0 0 0;
+       
+    }
+    nav h4 span{
+    width: 100%;
+      
+    }
+    nav ul{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 0 5px  10px 5px;
+        
+    }
+    nav ul li a{
+        font-size: 16px;
+        text-align: center;
+    }
+
 
     
+    /*=====banner section====*/
+.banner{
+    padding: 60px 0 70px;
+    text-align: center;
+    color: white;
+}
+.banner h3{
+   font-style: italic;
+    margin: 0;
+}
+ .banner span{
+    display: inline-block;
+    height: 3px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+
+   .banner button{
+    
+    padding: 12px 22px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}    
+    
+
+
+/* upcoimg events */
+
+.event{
+    
+    
+    width: 90%;
+    margin: 30px auto 0;
+}
+.event-box{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.event-box img{
+    height: 320px;
+}   
+.event-img-mobile{
+    margin-top: 50px;
+}
+/* explore the world */
+
+.explore-main{
+    
+ display: block;
+    
+}
+.explore{
+    width: 100%;
+}
+
+
+.explore p{
+    margin: 30px 0;
+}
+.explore a{
+    
+    font-size: 18px;
+    
+}
+/* tours & destination*/
+.tours-main{
+    display: block;
+    
+}
+.tour{
+    padding: 10px;
+}
+.tour h3{
+    margin: 0;
+}
+.tour p{
+    margin: 20px 0;
+}
+.tour a{}
+.tour img{}
+.small{
+    height: 300px;
+    margin:0 0 10px 0;
+}
+.large{
+    height: 300px;
+    margin: 0 0 20px 0;
+}
+footer{
+   padding: 30px 0;
+}
+
+  }
+
+/* tab device media query */
+@media only screen and (min-width:601px) and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    section{
+        padding: 60px 0;
+    }
+
+    h1{
+        font-size: 40px;
+        
+    }
+    h2{
+        font-size: 30px;
+        
+    }
+    
+    h3{
+        font-size: 25px;
+        
+    }
+    
+     header{
+        
+    }
+    
+    nav h4{
+       font-size: 25px;
+       margin: 0;
+       text-align: left;
+       padding: 15px;
+       
+    }
+    
+    nav ul{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 0 15px  10px 5px;
+        
+    }
+    nav ul li a{
+        font-size: 18px;
+        
+    
+    }
+    /*=====banner section====*/
+.banner{
+    padding: 100px 0 110px;
+    text-align: center;
+    color: white;
+}
+
+ .banner span{
+    height: 4px;
+    width: 140px;
+    
+    
+}
+
+   .banner button{
+    
+    padding: 15px 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}    
+    
+
+
+/* upcoimg events */
+
+
+.event-main span{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0 50px 0;
+}
+.event{
+   
+    width: 90%;
+    
+}
+.event-box{
+    width: 50%;
+    margin: 15px;
+}
+.event-box img{
+    height: 320px;
+    
+}
+
+
+/* explore the world */
+
+.explore-main{
+    
+ display: block;
+    
+}
+.explore{
+    width: 80%;
+    margin: auto;
+}
+
+
+.explore p{
+    margin: 40px 0;
+}
+
+    
+
+/* tours & destination*/
+
+.tour{
+    padding: 12px;
+}
+.tour h3{
+    margin: 0;
+}
+.tour p{
+    margin: 20px 0;
+}
+.tour a{}
+.tour img{}
+.small{
+    height: 300px;
+    margin:0 0 10px 0;
+}
+.large{
+    height: 310px;
+    margin: 0 0 20px 0;
+}
+footer{
+   padding: 30px 0;
+}
+  
+}
+
+/* small laptop *square monitor */
+@media only screen and (min-width:769) and (max-width:1024px){
+   h1{
+    font-size:50px ;
+}   
+   h2{
+    font-size: 35px;
+}
+   h3{
+    font-size: 25px;
+}
+
+
+    
+}
+@media only screen and (min-width:1440px) and (max-width:1440px){
+    h1{
+        font-size:10px ;
+    }   
+      
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 35px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+    
+
+
+
+    
+
+
 
 
 
